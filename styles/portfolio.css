@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+.prymary-text{
+    color:#FD6E0A;
+}
+.btn-primary{
+    background: #FD6E0A;
+    padding: 18px 35px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    font-size: 25px;
+}
+.header{
+    background-color:  #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    
+    background-repeat: no-repeat;
+    background-position:bottom right,left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin: 50px 200px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight:800;
+}
+/* header banner */
+.banner{
+    display: flex;
+    margin: 0px 0px 0px 200px;
+    align-items: center;  
+}
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5PX;
+}
+.banner-title{
+    font-weight: 700;
+font-size: 85px;
+color: #181818;
+margin-bottom: 20PX;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30PX;
+}
+.main-image{
+    margin-right: 40px;
+    height: px;
+    width: 550px;
+}
+/* about section */
+
+.about-main{
+    max-width:1150px;
+    margin: 0 auto;
+    background-color:#FFF8F3;
+}
+.about{
+    padding: 131px 155px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 80px;
+
+}
+.section-tilte{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #181818
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #a59d9d;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+/* .about-info{
+    
+} */
+.info-title{
+    font-weight: 400;
+    font-size: 15px;
+    color: #757575;
+}
+.info-name{
+    font-weight: 700;
+    font-size: 18px;
+    color: #474747;
+}
