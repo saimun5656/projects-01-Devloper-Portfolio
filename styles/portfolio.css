@@ -29,7 +29,7 @@ nav{
     display: flex;
     justify-content: space-between;
     font-family: sans-serif;
-    margin: 50px 200px;
+    padding: 50px 200px;
     
 }
 nav ul{
@@ -252,6 +252,7 @@ height: 56px;
     display: flex;
     gap: 24px;
 }
+
 .footer-section input,textarea{
     display: block;
     width: 100%;
