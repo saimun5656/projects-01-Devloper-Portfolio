@@ -219,5 +219,53 @@ margin-top: 10px;
 .resume-btn{
     text-align: center;
     margin-top: 50px;
+}
+/* footer style */
+.footer{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    display: flex;
+    max-width:1150px;
+    margin: 0 auto;
+    gap: 117px;
+    padding: 130px 270px;
+}
+.footer-content-title{
+    font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+margin-bottom: 28px;
+}
+.footer-description{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #474747;
+width: 562px;
+height: 56px;
+}
+.icon{
+    margin-top:30px;
+    width: 120px;
+    height: 24px;
+    display: flex;
+    gap: 24px;
+}
+.footer-section input,textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom:24px;
+    padding:18px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
 
+input{
+    height: 64px ;
+}
+.footer-section textarea{
+    height: 180px;
 }
